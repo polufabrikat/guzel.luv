@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "order.html">
+        <input type = "text"
+        required
+        name="login" placeholder = "Логин">
+        <br>
+        <input type="password" required namer = "password" placeholder="Пороль">
+        <br>
+
+        <input type = "checkbox" required name = "eula_agree"> Обработка Персональных данных
+        <br>
+
+         <label for="phone">Введите свой номер телефона:</label>
+         <input type="nomer" id="phone" name="phone"
+         pattern="+7XXXXXXXXXX" 
+         required
+         maxlength="12" placeholder="Введите 12 символов">
+         <small> - Ввод строго в формате: +79993336677 </small>
+         <br>
+         <div align="left"><big></big>Пицца на выбор :<big></big></div>
+<input required type="radio" id="pizzavibor" name="group2"> Сырная
+<input type="radio" id="pizzavibor" name="group2"> Двойной цыпленок
+<input type="radio" id="pizzavibor" name="group2"> Пепперони фреш
+<input type="radio" id="pizzavibor" name="group2"> Чоризо фреш
+<input type="radio" id="pizzavibor" name="group2"> Карбонара
+<input type="radio" id="pizzavibor" name="group2"> Песто
+<input type="radio" id="pizzavibor" name="group2"> Аррива
+<br>
+    <p> Выберите Соус и подтвердите свой выбор:
+        <select required name="" id="">
+        <option value="">Соус Тартар </option>
+        <option value="">Соус Сырный </option>
+        <option value="">Соус Грибной </option>
+        <option value="">Соус Соевый </option>
+        <option value="">Соус Песто </option>
+        <input required type = "checkbox" name = "eula_agree">
+    </select>
+   </p>
+<input type="submit" name="Войти">
+</form>
+</body>
+</html>
